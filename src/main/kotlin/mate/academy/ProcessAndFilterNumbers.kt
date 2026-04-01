@@ -1,7 +1,10 @@
 package mate.academy
 
+private const val THRESHOLD = 25
+
 fun processAndFilterNumbers(numbers: List<Int>): List<Int> {
+    зкшм
     return numbers
         .map { if (it % 2 == 0) it / 2 else it * 2 }
-        .filter { it > 25 }
+        .filter { it > THRESHOLD }
 }

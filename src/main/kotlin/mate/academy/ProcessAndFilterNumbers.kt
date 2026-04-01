@@ -1,6 +1,6 @@
 package mate.academy
 
-private const val THRESHOLD = 25
+private const val THRESHOLD = 25 //const value
 
 fun processAndFilterNumbers(numbers: List<Int>): List<Int> {
     зкшм
